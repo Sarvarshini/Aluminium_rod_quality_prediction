@@ -49,7 +49,7 @@ if uploaded_file is not None:
 
     # Sidebar for filtering
     status_filter = st.sidebar.selectbox("Select Health Status", ["All", "Healthy", "Moderate", "Defective"])
-    
+    # Filter data based on selection
     if status_filter != "All":
         df = df[df["health_status"] == status_filter]
 
