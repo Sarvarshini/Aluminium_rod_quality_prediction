@@ -10,7 +10,7 @@ from sklearn.metrics import accuracy_score
 # Title
 st.title("Aluminum Rod Health Classification Application")
 
-# Upload dataset
+# Upload dataset from Kaggle
 uploaded_file = st.file_uploader("Upload Aluminum Dataset (CSV)", type=["csv"])
 
 if uploaded_file is not None:
