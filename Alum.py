@@ -8,7 +8,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
 
 # Title
-st.title("Aluminum Rod Health Classification App 🚀")
+st.title("Aluminum Rod Health Classification Application")
 
 # Upload dataset
 uploaded_file = st.file_uploader("Upload Aluminum Dataset (CSV)", type=["csv"])
